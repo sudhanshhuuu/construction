@@ -5,6 +5,7 @@ import bannerImg from '../assets/banner1.png'; // Use your image path
 import AboutCompanyPage from './AboutCompanyPage';
 import EmployeeStrength from './EmployeeStrength';
 import MissionVisionQuality from './MissionVisionQuality';
+import MachineryEquipments from './MachineryEquipments';
 
 const AboutUs = () => {
     return (
@@ -72,6 +73,8 @@ const AboutUs = () => {
             </section>
             <EmployeeStrength />
             <MissionVisionQuality />
+            <MachineryEquipments />
+
 
             {/* <AboutCompanyPage /> */}
         </>

@@ -10,11 +10,13 @@ import Contact from './sections/Contact';
 import Working from './sections/Working';
 import Testimonials from './sections/Testimonials';
 import AboutUs from './sections/AboutUs';
+import ScrollToTop from './sections/ScrollToTop';
 
 function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<AboutUs />} />

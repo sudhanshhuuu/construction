@@ -2,10 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { slideUpVariants, zoomInVariants } from './animation';
 import { allservices } from '../export';
+import MachineryEquipments from './MachineryEquipments';
 
 const Services = () => {
   return (
-    <div id="services" className="w-full bg-gradient-to-br from-white to-blue-50 py-16">
+   <>
+     <div id="services" className="w-full bg-gradient-to-br from-white to-blue-50 py-16">
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -17,7 +19,7 @@ const Services = () => {
           variants={slideUpVariants}
           className="text-blue-600 text-xl sm:text-2xl uppercase tracking-wider"
         >
-          Special Offer
+          Special Services
         </motion.h3>
 
         <motion.h2
@@ -69,6 +71,8 @@ const Services = () => {
         </motion.div>
       </motion.div>
     </div>
+    <MachineryEquipments />
+   </>
   );
 };
 
