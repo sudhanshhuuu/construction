@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import HeroBanner from './HeroBanner';
 import bannerImg from '../assets/banner1.png'; // Use your image path
-import AboutCompanyPage from './AboutCompanyPage';
 import EmployeeStrength from './EmployeeStrength';
 import MissionVisionQuality from './MissionVisionQuality';
 import MachineryEquipments from './MachineryEquipments';
+import OurTeam from './OutTeam';        
 
 const AboutUs = () => {
     return (
@@ -72,11 +72,11 @@ const AboutUs = () => {
                 </div>
             </section>
             <EmployeeStrength />
+            <OurTeam />
             <MissionVisionQuality />
             <MachineryEquipments />
 
 
-            {/* <AboutCompanyPage /> */}
         </>
     );
 };
