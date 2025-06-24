@@ -13,7 +13,6 @@ import ProjectImage from './ProjectImage';
 import { Link } from 'react-router-dom';
 import Offer from './Offer';
 import CardContactUs from './CardContactUs';
-import MachineryEquipments from './MachineryEquipments';
 import OurTeam from './OutTeam';
 
 const images = [background1, background2, background3, background4];

@@ -6,6 +6,7 @@ import EmployeeStrength from './EmployeeStrength';
 import MissionVisionQuality from './MissionVisionQuality';
 import MachineryEquipments from './MachineryEquipments';
 import OurTeam from './OutTeam';        
+import OurMajorClients from './OurMajorClients';
 
 const AboutUs = () => {
     return (
@@ -75,6 +76,7 @@ const AboutUs = () => {
             <OurTeam />
             <MissionVisionQuality />
             <MachineryEquipments />
+            <OurMajorClients />
 
 
         </>
