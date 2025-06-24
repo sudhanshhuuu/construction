@@ -19,6 +19,7 @@ import project13 from '../assets/project/13.png'
 import { motion } from 'framer-motion'
 import { slideUpVariants, zoomInVariants } from './animation';
 import ProjectImage from './ProjectImage';
+import OurTeam from './OutTeam';
 
 const Portfolio = () => {
     return (
@@ -71,6 +72,7 @@ const Portfolio = () => {
 
             </div>
             <ProjectImage />
+            <OurTeam />
         </>
 
     );
